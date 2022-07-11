@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+position: fixed;
+top: 0px;
+width: 100vw;
+background-color: rgb(152, 55, 27);
+box-shadow: 3px 2px 3px rgb(89, 61, 46);
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 350px;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: rgb(8, 7, 12);
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+  }
+.nome{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 13px;
+    font-size: 25px;
+}
+.login{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    color: white;
+    background-color: #27341C;
+    border: 5px solid rgb(152, 55, 27);
+    font-size: 15px;   
+    text-decoration: none;
+    border-radius: 15px;
+}
+.cadastro{ 
+    cursor: pointer;
+    display: inline-block; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    color: white;
+    background-color: #27341C;
+    border: 5px solid rgb(152, 55, 27);
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.site{
+    background-color: antiquewhite;
+}
+.imgsobre{
+    margin-top: 100px;
+    width: 500px;
+}

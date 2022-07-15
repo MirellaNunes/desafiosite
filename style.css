@@ -30,17 +30,19 @@ ul {
   }
   
   li a {
+    
     font-family: 'Courier New', Courier, monospace;
     display: block;
     color: rgb(8, 7, 12);
     text-align: center;
-    padding: 14px 100px;
+    padding: 14px 14px;
     text-decoration: none;
   }
 .nome{
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 13px;
+    margin-top: 14px;
     font-size: 25px;
+    margin-right: 250px;
 }
 .login{
     cursor: pointer;
@@ -71,6 +73,19 @@ ul {
     background-color: antiquewhite;
 }
 .imgsobre{
-    margin-top: 100px;
+    margin-left: 25px;
+    margin-top: 120px;
     width: 500px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.sobre-comp{
+    display: table-cell;
+    float: right;
+    width: 350px;
+    margin-top: 200px;
+    margin-right: 160px;
+    font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(152, 55, 27);
+   border-radius: 5px;
 }
